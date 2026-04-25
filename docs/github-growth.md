@@ -12,6 +12,10 @@ Recommended website:
 
 https://staging.synapse-network.ai/docs
 
+Primary dashboard CTA:
+
+https://staging.synapse-network.ai
+
 Recommended topics:
 
 - ai-agents
@@ -23,6 +27,14 @@ Recommended topics:
 - agent-payments
 - api-gateway
 - developer-tools
+
+## Environment Message
+
+Keep the README clear that:
+
+- `staging` is live now, testnet-backed, and uses MockUSDC.
+- `prod` is reserved for mainnet GA and uses real USDC.
+- Production should not be presented as generally available until DNS, health, funds, and human gates are ready.
 
 ## V1 Contribution Loop
 

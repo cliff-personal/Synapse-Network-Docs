@@ -11,6 +11,7 @@ export SYNAPSE_API_KEY=agt_xxx
 ```python
 from synapse_client import SynapseClient
 
+# Use "staging" for testnet (free), "prod" for mainnet (real USDC).
 client = SynapseClient()
 
 services = client.search("free", limit=10)

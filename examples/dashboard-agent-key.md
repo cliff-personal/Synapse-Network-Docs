@@ -2,7 +2,7 @@
 
 The fastest onboarding path is dashboard-issued credentials.
 
-1. Open the Synapse Gateway Dashboard.
+1. Open the Synapse Gateway Dashboard (Testnet Sandbox): https://staging.synapse-network.ai
 2. Connect wallet as the owner.
 3. Generate an Agent Key.
 4. Copy the key that starts with `agt_`.

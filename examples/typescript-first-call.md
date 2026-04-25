@@ -13,6 +13,7 @@ import { SynapseClient } from "@synapse-network/sdk";
 
 const client = new SynapseClient({
   credential: process.env.SYNAPSE_API_KEY!,
+  // Use "staging" for testnet (free), "prod" for mainnet (real USDC).
   environment: "staging",
 });
 
