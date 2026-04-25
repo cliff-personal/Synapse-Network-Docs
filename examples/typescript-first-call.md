@@ -2,6 +2,8 @@
 
 Use this when the developer or AI agent already has an Agent Key from the Synapse Gateway Dashboard.
 
+当开发者或 AI Agent 已经从 Synapse Gateway Dashboard 获取 Agent Key 时，使用这个示例。
+
 ```bash
 npm install @synapse-network/sdk
 export SYNAPSE_ENV=staging
@@ -14,6 +16,7 @@ import { SynapseClient } from "@synapse-network/sdk";
 const client = new SynapseClient({
   credential: process.env.SYNAPSE_API_KEY!,
   // Use "staging" for testnet (free), "prod" for mainnet (real USDC).
+  // 使用 "staging" 连接测试网免费环境，使用 "prod" 连接主网真实 USDC 环境。
   environment: "staging",
 });
 
@@ -34,3 +37,5 @@ console.log(receipt.invocationId, receipt.status, receipt.chargedUsdc);
 ```
 
 Full runbook: https://staging.synapse-network.ai/docs/sdk/typescript
+
+完整接入手册：https://staging.synapse-network.ai/docs/sdk/typescript

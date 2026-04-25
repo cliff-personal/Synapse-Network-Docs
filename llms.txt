@@ -2,14 +2,29 @@
 
 This repository is the GitHub funnel and agent-readable map for Synapse AgentPay docs.
 
+本仓库是 Synapse AgentPay 的 GitHub 流量入口和 Agent 可读索引。
+
+English appears first. Chinese follows the English explanation.
+
+英文在前，中文说明紧随其后。
+
 ## Read First
+
+优先阅读。
 
 1. `README.md` - public GitHub billboard and fast agent quickstart.
 2. `llm-instructions.md` - compact prompt rules for coding agents.
 3. `examples/` - copyable first-call examples.
 4. `docs/` - lightweight links into the staging docs site.
 
+1. `README.md` - 面向公开 GitHub 的广告牌和快速接入。
+2. `llm-instructions.md` - 给编码 Agent 使用的精简提示规则。
+3. `examples/` - 可复制的首次调用示例。
+4. `docs/` - 指向 staging 文档站的轻量索引。
+
 ## Canonical Product Docs
+
+权威产品文档。
 
 - SDK hub: https://staging.synapse-network.ai/docs/sdk
 - Python SDK: https://staging.synapse-network.ai/docs/sdk/python
@@ -21,6 +36,10 @@ This repository is the GitHub funnel and agent-readable map for Synapse AgentPay
 
 Do not add "Edit this page" links to the product docs site until the rendered docs pages are generated from this repository. Use GitHub Issues for docs feedback in V1.
 
+在渲染页面由本仓库生成之前，不要在产品文档站添加 “Edit this page” 链接。V1 阶段使用 GitHub Issues 收集文档反馈。
+
 ## Agent Runtime Rule
 
 Agent integrations should prefer `SynapseClient` with an `agt_xxx` Agent Key. Do not use owner wallet or `SynapseAuth` flows unless the user explicitly asks for owner/admin setup.
+
+Agent 接入应优先使用 `SynapseClient` 和 `agt_xxx` Agent Key。除非用户明确要求 Owner/Admin 设置，否则不要使用 owner 钱包或 `SynapseAuth` 流程。
