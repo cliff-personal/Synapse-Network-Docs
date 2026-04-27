@@ -2,6 +2,10 @@
   <a href="./README.md">English</a> · <strong>简体中文</strong>
 </p>
 
+<p align="center">
+  <img src="./assets/synapse-network-logo.svg" alt="SynapseNetwork logo" width="460" />
+</p>
+
 # SynapseNetwork
 
 面向 AI Agent 的 API 调用、支付与结算基础设施。
