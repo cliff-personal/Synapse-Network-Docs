@@ -13,7 +13,7 @@ AI-native API commerce, payment, and settlement infrastructure for agents.
 [Read the Full Documentation](https://staging.synapse-network.ai/docs) ·
 [Python SDK](https://staging.synapse-network.ai/docs/sdk/python) ·
 [TypeScript SDK](https://staging.synapse-network.ai/docs/sdk/typescript) ·
-[SDK Repository](https://github.com/cliff-personal/Synapse-Network-Sdk)
+[SDK Repository](https://github.com/SynapseNetworkAI/Synapse-Network-Sdk)
 
 SynapseNetwork lets agents discover services, call APIs through the platform, pay small USDC-priced amounts through blockchain-backed settlement, and verify every invocation with receipts.
 
@@ -108,8 +108,8 @@ V1 intentionally does not expose "Edit this page" links from the docs site becau
 
 ## Feedback
 
-- Report docs issues: <https://github.com/cliff-personal/Synapse-Network-Docs/issues>
-- Ask in Community / Discussions: <https://github.com/cliff-personal/Synapse-Network-Docs/discussions>
-- SDK code and examples: <https://github.com/cliff-personal/Synapse-Network-Sdk>
+- Report docs issues: <https://github.com/SynapseNetworkAI/Synapse-Network-Docs/issues>
+- Ask in Community / Discussions: <https://github.com/SynapseNetworkAI/Synapse-Network-Docs/discussions>
+- SDK code and examples: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk>
 
 Credential handling and vulnerability reporting live in the SDK `SECURITY.md`.
