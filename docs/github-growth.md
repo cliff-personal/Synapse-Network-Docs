@@ -22,15 +22,11 @@ SynapseNetwork：AI Agent 通过平台调用 API，并通过区块链支持的 U
 
 Recommended website:
 
-https://synapse-network.ai/docs
+https://docs.synapse-network.ai/
 
 Primary dashboard CTA:
 
-https://synapse-network.ai
-
-Staging sandbox CTA:
-
-https://staging.synapse-network.ai
+https://www.synapse-network.ai
 
 Recommended topics:
 

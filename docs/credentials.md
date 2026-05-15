@@ -2,11 +2,7 @@
 
 Canonical credentials docs:
 
-https://synapse-network.ai/docs/concepts#credentials
-
-Staging sandbox credentials:
-
-https://staging.synapse-network.ai/docs/concepts#credentials
+https://docs.synapse-network.ai/concepts/budget-isolation
 
 Agent runtime rule:
 

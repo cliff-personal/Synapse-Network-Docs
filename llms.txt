@@ -24,30 +24,29 @@ README 语言结构：
 2. `README.zh-CN.md` - Simplified Chinese GitHub billboard and fast agent quickstart.
 3. `llm-instructions.md` - compact prompt rules for coding agents.
 4. `examples/` - copyable first-call examples.
-5. `docs/` - lightweight links into the production docs site, with staging kept as the sandbox.
+5. `docs/` - lightweight links into the production docs site.
 6. `content/docs/` - one-way public mirror of docs pages rendered from the private main repository.
 
 1. `README.md` - 英文 GitHub 广告牌和快速接入。
 2. `README.zh-CN.md` - 简体中文 GitHub 广告牌和快速接入。
 3. `llm-instructions.md` - 给编码 Agent 使用的精简提示规则。
 4. `examples/` - 可复制的首次调用示例。
-5. `docs/` - 指向 production 文档站的轻量索引，并保留 staging 作为沙盒。
+5. `docs/` - 指向 production 文档站的轻量索引。
 6. `content/docs/` - 私有主仓渲染文档页面的一份单向公开镜像。
 
 ## Canonical Product Docs
 
 权威产品文档。
 
-- Docs home: https://synapse-network.ai/docs
-- SDK hub: https://synapse-network.ai/docs/sdk
-- Python SDK: https://synapse-network.ai/docs/sdk/python
-- TypeScript SDK: https://synapse-network.ai/docs/sdk/typescript
-- Concepts: https://synapse-network.ai/docs/concepts
-- Contracts: https://synapse-network.ai/docs/contracts
-- Staging sandbox docs: https://staging.synapse-network.ai/docs
-- Go SDK guide: https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/go_integration.md
-- Java/JVM SDK guide: https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/java_integration.md
-- .NET SDK guide: https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/dotnet_integration.md
+- Docs home: https://docs.synapse-network.ai/
+- SDK hub: https://docs.synapse-network.ai/sdks
+- Python SDK: https://docs.synapse-network.ai/sdks/python
+- TypeScript SDK: https://docs.synapse-network.ai/sdks/typescript
+- Concepts: https://docs.synapse-network.ai/concepts/agent-settlement
+- Contracts: https://docs.synapse-network.ai/smart-contracts
+- Go SDK: https://docs.synapse-network.ai/sdks/go
+- Java/JVM SDK: https://docs.synapse-network.ai/sdks/java
+- .NET SDK: https://docs.synapse-network.ai/sdks/dotnet
 
 ## V1 Docs Contribution Rule
 

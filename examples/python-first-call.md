@@ -33,10 +33,6 @@ receipt = client.get_invocation(result.invocation_id)
 print(receipt.invocation_id, receipt.status, receipt.charged_usdc)
 ```
 
-Full runbook: https://synapse-network.ai/docs/sdk/python
+Full runbook: https://docs.synapse-network.ai/sdks/python
 
-Staging sandbox runbook: https://staging.synapse-network.ai/docs/sdk/python
-
-完整接入手册：https://synapse-network.ai/docs/sdk/python
-
-Staging 沙盒接入手册：https://staging.synapse-network.ai/docs/sdk/python
+完整接入手册：https://docs.synapse-network.ai/sdks/python
