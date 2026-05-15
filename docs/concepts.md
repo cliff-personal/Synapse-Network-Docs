@@ -2,11 +2,7 @@
 
 Canonical concepts docs:
 
-https://synapse-network.ai/docs/concepts
-
-Staging sandbox concepts:
-
-https://staging.synapse-network.ai/docs/concepts
+https://docs.synapse-network.ai/concepts/agent-settlement
 
 Important sections:
 

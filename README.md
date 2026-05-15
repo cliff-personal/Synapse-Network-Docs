@@ -10,9 +10,9 @@
 
 AI-native API commerce, payment, and settlement infrastructure for agents.
 
-[Read the Full Documentation](https://synapse-network.ai/docs) ·
-[Python SDK](https://synapse-network.ai/docs/sdk/python) ·
-[TypeScript SDK](https://synapse-network.ai/docs/sdk/typescript) ·
+[Read the Full Documentation](https://docs.synapse-network.ai/) ·
+[Python SDK](https://docs.synapse-network.ai/sdks/python) ·
+[TypeScript SDK](https://docs.synapse-network.ai/sdks/typescript) ·
 [SDK Repository](https://github.com/SynapseNetworkAI/Synapse-Network-Sdk)
 
 SynapseNetwork lets agents discover services, call APIs through the platform, pay small USDC-priced amounts through blockchain-backed settlement, and verify every invocation with receipts.
@@ -21,7 +21,7 @@ SynapseNetwork lets agents discover services, call APIs through the platform, pa
 
 Step 1: Get your Agent Key.
 
-Open the **[Synapse Gateway Dashboard (Testnet Sandbox)](https://staging.synapse-network.ai)**, connect your wallet, and generate an Agent Key that starts with `agt_`.
+Open the **[Synapse Dashboard](https://www.synapse-network.ai)**, connect your wallet, and generate an Agent Key that starts with `agt_`.
 
 Step 2: Let your agent discover and work.
 
@@ -100,19 +100,17 @@ The most important rule: agent runtime code should use `SynapseClient`, not owne
 
 This repository is the GitHub funnel, agent-readable index, and public-source mirror for docs pages that expose `Open in GitHub`. The polished product documentation still lives on the production docs site:
 
-- SDK hub: <https://synapse-network.ai/docs/sdk>
-- Python SDK: <https://synapse-network.ai/docs/sdk/python>
-- TypeScript SDK: <https://synapse-network.ai/docs/sdk/typescript>
-- Concepts: <https://synapse-network.ai/docs/concepts>
-- Contracts: <https://synapse-network.ai/docs/contracts>
+- SDK hub: <https://docs.synapse-network.ai/sdks>
+- Python SDK: <https://docs.synapse-network.ai/sdks/python>
+- TypeScript SDK: <https://docs.synapse-network.ai/sdks/typescript>
+- Concepts: <https://docs.synapse-network.ai/concepts/agent-settlement>
+- Contracts: <https://docs.synapse-network.ai/smart-contracts>
 
-Staging remains the public testnet sandbox for first calls and integration tests: <https://staging.synapse-network.ai/docs>.
+Additional SDK guides live on the production docs site:
 
-Preview SDK guides for Go, Java/JVM, and .NET live in the official SDK repository until product docs pages are generated:
-
-- Go SDK: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/go_integration.md>
-- Java/JVM SDK: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/java_integration.md>
-- .NET SDK: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/dotnet_integration.md>
+- Go SDK: <https://docs.synapse-network.ai/sdks/go>
+- Java/JVM SDK: <https://docs.synapse-network.ai/sdks/java>
+- .NET SDK: <https://docs.synapse-network.ai/sdks/dotnet>
 
 Public docs pages may link here for source viewing, but V1 still does not expose "Edit this page" flows because this repository is not yet the canonical authoring source for rendered docs. Please use GitHub Issues for docs feedback until docs-source sync lands.
 

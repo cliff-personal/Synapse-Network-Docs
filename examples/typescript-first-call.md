@@ -36,10 +36,6 @@ const receipt = await client.getInvocation(result.invocationId);
 console.log(receipt.invocationId, receipt.status, receipt.chargedUsdc);
 ```
 
-Full runbook: https://synapse-network.ai/docs/sdk/typescript
+Full runbook: https://docs.synapse-network.ai/sdks/typescript
 
-Staging sandbox runbook: https://staging.synapse-network.ai/docs/sdk/typescript
-
-完整接入手册：https://synapse-network.ai/docs/sdk/typescript
-
-Staging 沙盒接入手册：https://staging.synapse-network.ai/docs/sdk/typescript
+完整接入手册：https://docs.synapse-network.ai/sdks/typescript
