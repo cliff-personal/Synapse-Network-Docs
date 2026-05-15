@@ -20,7 +20,11 @@ jobs:
           grep -q '<a href="./README.md">English</a> · <strong>简体中文</strong>' README.zh-CN.md
           grep -q "Read the Full Documentation" README.md
           grep -q "阅读完整文档" README.zh-CN.md
-          grep -q "https://staging.synapse-network.ai/docs" README.md
+          grep -q "https://docs.synapse-network.ai/" README.md
+          if grep -RInE "https://(staging\.)?synapse-network\.ai/docs|https://docs-staging\.synapse-network\.ai" README.md README.zh-CN.md llms.txt llm-instructions.md docs examples content/docs; then
+            echo "Found stale public docs URL; use https://docs.synapse-network.ai/"
+            exit 1
+          fi
           grep -q "SynapseClient" README.md
           grep -q "public-source mirror" README.md
           grep -q "公开文档源码镜像仓" README.zh-CN.md
