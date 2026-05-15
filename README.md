@@ -98,7 +98,7 @@ The most important rule: agent runtime code should use `SynapseClient`, not owne
 
 ## Full Docs
 
-This repository is the GitHub funnel and agent-readable index. The polished product documentation lives on the production docs site:
+This repository is the GitHub funnel, agent-readable index, and public-source mirror for docs pages that expose `Open in GitHub`. The polished product documentation still lives on the production docs site:
 
 - SDK hub: <https://synapse-network.ai/docs/sdk>
 - Python SDK: <https://synapse-network.ai/docs/sdk/python>
@@ -114,7 +114,7 @@ Preview SDK guides for Go, Java/JVM, and .NET live in the official SDK repositor
 - Java/JVM SDK: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/java_integration.md>
 - .NET SDK: <https://github.com/SynapseNetworkAI/Synapse-Network-Sdk/blob/main/docs/sdk/dotnet_integration.md>
 
-V1 intentionally does not expose "Edit this page" links from the docs site because this repository is not yet the source of truth for every rendered docs page. Please use GitHub Issues for docs feedback until docs-source sync lands.
+Public docs pages may link here for source viewing, but V1 still does not expose "Edit this page" flows because this repository is not yet the canonical authoring source for rendered docs. Please use GitHub Issues for docs feedback until docs-source sync lands.
 
 ## Feedback
 

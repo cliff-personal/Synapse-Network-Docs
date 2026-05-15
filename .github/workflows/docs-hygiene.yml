@@ -22,8 +22,15 @@ jobs:
           grep -q "阅读完整文档" README.zh-CN.md
           grep -q "https://staging.synapse-network.ai/docs" README.md
           grep -q "SynapseClient" README.md
+          grep -q "public-source mirror" README.md
+          grep -q "公开文档源码镜像仓" README.zh-CN.md
           grep -q "<system_prompt>" llm-instructions.md
           grep -q "CRITICAL RULES FOR AI AGENTS" llm-instructions.md
+          test -f content/docs/meta.json
+          test -f content/docs/api-reference.mdx
+          test -f content/docs/get-started/agent-builders.mdx
+          test -f content/docs/sdks/typescript.mdx
+          test -f content/docs/support.mdx
           stale_domain="gateway"".synapse"".network"
           if grep -R "$stale_domain" . --exclude-dir=.git; then
             echo "Found stale gateway dot synapse dot network domain"

@@ -1,6 +1,6 @@
 # Synapse-Network-Docs Agent Map
 
-This repository is the GitHub funnel and agent-readable map for SynapseNetwork docs.
+This repository is the GitHub funnel, agent-readable map, and public-source mirror for SynapseNetwork docs pages that expose GitHub source links.
 
 本仓库是 SynapseNetwork 的 GitHub 流量入口和 Agent 可读索引。
 
@@ -25,12 +25,14 @@ README 语言结构：
 3. `llm-instructions.md` - compact prompt rules for coding agents.
 4. `examples/` - copyable first-call examples.
 5. `docs/` - lightweight links into the production docs site, with staging kept as the sandbox.
+6. `content/docs/` - one-way public mirror of docs pages rendered from the private main repository.
 
 1. `README.md` - 英文 GitHub 广告牌和快速接入。
 2. `README.zh-CN.md` - 简体中文 GitHub 广告牌和快速接入。
 3. `llm-instructions.md` - 给编码 Agent 使用的精简提示规则。
 4. `examples/` - 可复制的首次调用示例。
 5. `docs/` - 指向 production 文档站的轻量索引，并保留 staging 作为沙盒。
+6. `content/docs/` - 私有主仓渲染文档页面的一份单向公开镜像。
 
 ## Canonical Product Docs
 
@@ -49,9 +51,9 @@ README 语言结构：
 
 ## V1 Docs Contribution Rule
 
-Do not add "Edit this page" links to the product docs site until the rendered docs pages are generated from this repository. Use GitHub Issues for docs feedback in V1.
+Public docs pages may link to this repository for source viewing, but do not add "Edit this page" flows to the product docs site until rendered pages are generated from this repository. Use GitHub Issues for docs feedback in V1.
 
-在渲染页面由本仓库生成之前，不要在产品文档站添加 “Edit this page” 链接。V1 阶段使用 GitHub Issues 收集文档反馈。
+公开 docs 页面可以把源码查看链接指向本仓库，但在渲染页面由本仓库生成之前，不要在产品文档站添加 “Edit this page” 交互。V1 阶段使用 GitHub Issues 收集文档反馈。
 
 ## Brand Constraint
 

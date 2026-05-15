@@ -2,7 +2,7 @@
 
 Read `llms.txt` first.
 
-This repository is intentionally small. Keep it as a GitHub discovery funnel and agent-readable index, not a full copy of the product docs site.
+This repository is intentionally small. Keep it as a GitHub discovery funnel, agent-readable index, and public-source mirror for docs pages that expose `Open in GitHub`.
 
 本仓库刻意保持轻量。它是 GitHub 发现入口和 Agent 可读索引，不是完整产品文档站的副本。
 
@@ -22,12 +22,13 @@ Rules:
 
 1. Keep README focused on TTFC, positioning, and links to staging docs.
 2. Keep `llm-instructions.md` optimized for coding agents.
-3. Do not add "Edit this page" links until docs-site pages are generated from this repo.
+3. Public source-view links may point here, but do not add "Edit this page" flows until rendered docs are generated from this repo.
 4. Do not include real credentials, private keys, JWTs, provider secrets, or production logs.
 5. Do not use the old `gateway` on `synapse.network` domain; the staging docs domain is `staging.synapse-network.ai`.
 6. Product name is SynapseNetwork. Do not use old agent-payment brand labels as the product name.
 7. Describe the product as a platform where agents call APIs and make small USDC payments through blockchain-backed settlement.
 8. Keep language switchers at the top of localized README files.
+9. `content/docs/**` is a one-way public mirror from the private `Synapse-Network/services/docs-front/content/docs/**` tree. Do not hand-edit mirrored docs pages unless the mirror contract changes.
 
 规则：
 
